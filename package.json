@@ -1,0 +1,23 @@
+{
+  "name": "stripe-node-ts",
+  "version": "0.0.0",
+  "description": "simple repo for testing out stripe-node's new type defs",
+  "main": "dist/tests.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^12.12.14",
+    "dotenv": "^8.2.0",
+    "stripe": "https://github.com/stripe/stripe-node/tarball/ralex/typescript"
+  },
+  "devDependencies": {
+    "ts-lint": "^4.5.1",
+    "typescript": "^3.7.2"
+  }
+}
